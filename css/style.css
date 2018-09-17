@@ -42,18 +42,15 @@ body {
     min-height: 1000px;
     position: relative;
     overflow: hidden;
-    background: rgb(0, 0, 0);
-    background-image: url(https://frebers.com/wp-content/uploads/2016/07/game-background-p4-4.jpg);
     background-size: cover;
-    background-position: center bottom;
+    background: rgb(0, 0, 0) url(https://frebers.com/wp-content/uploads/2016/07/game-background-p4-4.jpg) center bottom;
 }
 
 .home {
     position: absolute;
     bottom: 160px;
     left: -20px;
-    background: url(https://pics.clipartpng.com/midle/Blue_House_PNG_Clip_Art-2439.png);
-    background-position: center;
+    background: url(https://pics.clipartpng.com/midle/Blue_House_PNG_Clip_Art-2439.png) center;
     transform: scale(1.75);
     height: 500px;
     width: 300px;
@@ -63,8 +60,7 @@ body {
 
 .home2 {
     position: absolute;
-    background: url(https://pics.clipartpng.com/midle/Blue_House_PNG_Clip_Art-2439.png);
-    background-position: left;
+    background: url(https://pics.clipartpng.com/midle/Blue_House_PNG_Clip_Art-2439.png) left;
     transform: scale(1.75);
     height: 500px;
     width: 210px;

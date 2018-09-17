@@ -63,18 +63,18 @@ function zombiesKilled(a) {
 
 
 function createZombie() {
-    var zombiak = document.createElement("div");
-    zombiak.style.animationDuration = "0.7s, " + Math.floor((Math.random() * 10) + 5) + "s";
+    var zombie = document.createElement("div");
+    zombie.style.animationDuration = "0.7s, " + Math.floor((Math.random() * 10) + 5) + "s";
 
-    zombiak.classList.add("zombie");
-    zombiak.classList.add("animationDuration");
+    zombie.classList.add("zombie");
+    zombie.classList.add("animationDuration");
 
     var bottom = Math.floor((Math.random() * 30) + -10);
-    zombiak.style.bottom = bottom + "px";
-    zombiak.style.zIndex = 60 - bottom;
-    tlo.appendChild(zombiak);
-    lostGame(zombiak);
-    zombiesKilled(zombiak);
+    zombie.style.bottom = bottom + "px";
+    zombie.style.zIndex = 60 - bottom;
+    tlo.appendChild(zombie);
+    lostGame(zombie);
+    zombiesKilled(zombie);
 }
 
 
