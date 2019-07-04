@@ -2,7 +2,7 @@ body {
     margin: 0;
     background: linear-gradient(to bottom, violet, orange, red, black);
     font-family: 'Orbitron', sans-serif;
-    
+
 }
 
 .hidden {
@@ -19,7 +19,7 @@ body {
     right: -200px;
     width: 200px;
     height: 312px;
-    background: url(http://www.wdrfree.com/public/demos/animatespritekeyframes/walkingdead.png);
+    background: url("../images/zombie.png");
     transform: scale(0.7);
     animation: walk 1s 0s infinite steps(9), walkFrom 14s 0s 1 linear;
     cursor: all-scroll;
@@ -43,7 +43,7 @@ body {
     position: relative;
     overflow: hidden;
     background: rgb(0, 0, 0);
-    background-image: url(https://frebers.com/wp-content/uploads/2016/07/game-background-p4-4.jpg);
+    background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: center bottom;
 }
@@ -52,7 +52,7 @@ body {
     position: absolute;
     bottom: 160px;
     left: -20px;
-    background: url(https://pics.clipartpng.com/midle/Blue_House_PNG_Clip_Art-2439.png);
+    background: url(("../images/house.png");
     background-position: center;
     transform: scale(1.75);
     height: 500px;
@@ -63,7 +63,7 @@ body {
 
 .home2 {
     position: absolute;
-    background: url(https://pics.clipartpng.com/midle/Blue_House_PNG_Clip_Art-2439.png);
+    background: url(("../images/house.png");
     background-position: left;
     transform: scale(1.75);
     height: 500px;
@@ -92,7 +92,7 @@ body {
     width: 30px;
     position: absolute;
     background: linear-gradient(to right, rgba(0, 0, 0, 1),
-    rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.05));
+            rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.05));
     right: -25px;
     bottom: 50px;
 }
@@ -169,7 +169,8 @@ span {
 
 }
 
-.start, .level {
+.start,
+.level {
     font-family: 'Orbitron', sans-serif;
     color: white;
     font-size: 40px;
