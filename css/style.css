@@ -52,7 +52,7 @@ body {
     position: absolute;
     bottom: 160px;
     left: -20px;
-    background: url(("../images/house.png");
+    background: url("../images/house.png");
     background-position: center;
     transform: scale(1.75);
     height: 500px;
@@ -63,7 +63,7 @@ body {
 
 .home2 {
     position: absolute;
-    background: url(("../images/house.png");
+    background: url("../images/house.png");
     background-position: left;
     transform: scale(1.75);
     height: 500px;
